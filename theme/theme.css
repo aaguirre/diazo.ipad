@@ -1,0 +1,34 @@
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.headerlink {
+    color: #DDDDDD;
+    font-size: 80%;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.align-right {
+    float: right;
+    margin: 0 10px;
+    border: dotted #ddd 1px;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn .ui-icon { 
+	width: 30px!important; 
+	height: 30px!important; 
+	margin-left: -15px !important; 
+	box-shadow: none!important; 
+	-moz-box-shadow: none!important; 
+	-webkit-box-shadow: none!important; 
+	-webkit-border-radius: none !important; 
+	border-radius: none !important; 
+}
+#home .ui-icon { background:  url(img/53-house.png) 50% 50% no-repeat; background-size: 24px 22px; }
+#news .ui-icon { background:  url(img/166-newspaper.png) 50% 50% no-repeat; background-size: 28px 23px;  }
+#contact .ui-icon { background:  url(img/18-envelope.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+#search .ui-icon { background:  url(img/06-magnify.png) 50% 50% no-repeat;  background-size: 20px 24px; }
+#events .ui-icon { background:  url(img/83-calendar.png) 50% 50% no-repeat;  background-size: 24px 24px; }

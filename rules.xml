@@ -1,0 +1,11 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css">
+    <theme href="theme/theme.html" />
+    
+    <replace theme="/html/head/title" content="/html/head/title"/>
+	<replace css:theme-children="#title" css:content-children="#parent-fieldname-title" />
+    <replace css:theme-children="#content" css:content="#content-core" />
+    <replace css:theme-children="#menu" css:content-children=".navTree" />
+
+</rules>
